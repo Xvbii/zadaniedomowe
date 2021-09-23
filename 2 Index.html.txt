@@ -94,4 +94,4 @@ Proszę pana najpierw płaci pan niewielką sumę a potem przez 3 miesiące nie 
 		     - Jak to?! Całe TESCO octu?!<br>
 			 <HR size=6 width= 65% align=right color=RED>
 			 <!-Nazwisko Ucznia:&nbsp;Burzyński&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Imię Ucznia:&nbsp;Jakub &nbsp &nbsp &nbsp &nbsp &nbsp Szkoła:&nbsp;Technikum nr 13 w Gdańsku &nbsp &nbsp &nbsp Klasa:&nbsp;1P->
-			 </FIELDSET>
+			 </FIELDSET> 
