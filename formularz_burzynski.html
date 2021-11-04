@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularz</title>
+	<meta charset="utf-8">
+	<META name="Author" content="Jakub Burzyński"/>
+</head>
+<body bgcolor="silver">
+<body>
+<form>
+<P>
+&nbsp &nbsp Imię: &nbsp &nbsp <INPUT NAME=imie align="center" SIZE=20 min="2" max="50"> <br>
+Nazwisko: <INPUT NAME=nazwisko align="center" SIZE=20 min="2" max="50">
+
+</P>
+<p>
+Przedział wiekowy: <br>
+ <input type="radio" name="wiek" value="010">0-10
+ <input type="radio" name="wiek" value="1117">11-17
+ <input type="radio" name="wiek" value="18+">18+
+</p>
+<p>
+Adres e-mail: &nbsp <input type="email">
+</p>
+<p>
+Płeć: <br>
+ <input type="radio" name="płeć" value="woman">kobieta <br>
+ <input type="radio" name="płeć" value="man">mężczyzna <br>
+ <input type="radio" name="płeć" value="no">wolę nie podawać <br>
+</p>
+<p>
+Szkoła: <br> <br>
+<SELECT NAME=szkoła>
+<OPTION VALUE=Technikum>Technikum
+<OPTION VALUE=Liceum>Liceum
+<OPTION VALUE=Zawodowa>Zawodowa
+<OPTION VALUE=Podstawowa>Podstawowa
+</SELECT>
+</P>
+ <p>
+ Ulubiony rodzaj muzyki (można wybrać kilka): <br>
+<input type="checkbox" name="muzyka" value="Rock"> Rock <br>
+<input type="checkbox" name="muzyka" value="Pop"> Pop <br>
+<input type="checkbox" name="muzyka" value="Techno"> Techno <br>
+<input type="checkbox" name="muzyka" value="Poważna"> Poważna <br>
+<input type="checkbox" name="muzyka" value="Inna"> Inna (podaj jaka):<input NAME=muzyka SIZE=20 min="2" max="100"> <br>
+ </p>
+ <p>
+ Ulubiony przedmiot szkolny(można wybrać kilka): <br>
+<input type="checkbox" name="przedmiot" value="Matematyka"> Matematyka <br>
+<input type="checkbox" name="przedmiot" value="Angielski"> Angielski <br>
+<input type="checkbox" name="przedmiot" value="Polski"> Polski <br>
+<input type="checkbox" name="przedmiot" value="Chemia"> Chemia <br>
+<input type="checkbox" name="przedmiot" value="Inny"> Inny (podaj jaki):<input NAME=przedmiot SIZE=20 min="2" max="100"> <br>
+ </p>
+<input type="reset" value="Wyczyść"> </input>
+<input type="submit" value="Wyślij"> </input>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
